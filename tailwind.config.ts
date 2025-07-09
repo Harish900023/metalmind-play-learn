@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -61,7 +62,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				/* MetalMind Theme Colors */
+				metal: {
+					gold: 'hsl(var(--metal-gold))',
+					silver: 'hsl(var(--metal-silver))',
+					copper: 'hsl(var(--metal-copper))'
+				},
+				nonmetal: {
+					oxygen: 'hsl(var(--nonmetal-oxygen))',
+					carbon: 'hsl(var(--nonmetal-carbon))',
+					sulfur: 'hsl(var(--nonmetal-sulfur))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				error: {
+					DEFAULT: 'hsl(var(--error))',
+					foreground: 'hsl(var(--error-foreground))'
 				}
+			},
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+				display: ['Fredoka One', 'cursive']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
