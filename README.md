@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://metalmind.dev/projects/8768b643-aded-4ee4-9d68-6af9d82a6292
+**URL**: https://lovable.dev/projects/8768b643-aded-4ee4-9d68-6af9d82a6292
 
 ## How can I edit this code?
 
